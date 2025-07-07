@@ -1,0 +1,44 @@
+/* ルート要素のフォントサイズを20pxに設定 */
+html {
+  font-size: 20px;
+}
+
+/* body全体のフォントをArial,Meiryo,sans-serifに設定 */
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
+  text-align: center; /* テキストを全て中央寄せに設定 */
+}
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  /* font-optical-sizing: auto; */
+  /* font-weight: 400; */
+  /* font-style: normal; */
+  font-size: 2rem; /* フォントサイズをルート要素の2倍に設定 */
+  letter-spacing: 1.2em; /* 文字間を文字の大きさの1.2倍に設定 */
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* 影を付ける */
+  border-bottom: 3px solid rgb(115, 115, 114); /* 下線を付ける */
+}
+
+.blue {
+  color: skyblue; /* スカイブルーに設定 */
+}
+
+.pink {
+  color: rgb(255, 192, 203); /* rgbでピンクに設定 */
+}
+
+/* h2のスタイル統一 */
+h2 {
+  margin-top: 20px;
+}
+
+/* basic内のp要素を太字に */
+#basic p {
+  font-weight: bold;
+}
+
+/* basic以外のp要素は太字にしない */
+body > p {
+  font-weight: normal;
+}
